@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.coffee-container .image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px) brightness(50%);
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+
+}
+
+.text{
+  color: white ;
+  text-align: center;
+  justify-content: center;
+}
+.heading{
+  font-size: 5rem;
+  font-weight: bold;
+}
+.quote{
+  font-family: italic;
+  font-size:3rem;
+}
+.buttons{
+  padding: 30px;
+}
